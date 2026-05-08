@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amőba Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="generationDatas">
+        <label for="sizeSelector">Méret: </label>
+        <input type="range" name="sizeSelector" id="sizeSelector" min="3" max="9" value="5" oninput="UpdateSizeShower(this.value)">
+        <p id="sizeShower">5</p>
+        <br>
+        <input type="button" value="Kezdés" onclick="CreateBox()">
+    </div>
+
+    <br>
+
+    <div id="gameBox"></div>
+
+    <p>Icon Típus: </label>
+    <input type="radio" name="iconType" id="iconType" value="X Icon">
+    <label for="iconType" class="iconX">X</label>
+    <input type="radio" name="iconType" id="iconType" value="O Icon" checked>
+    <label for="iconType" class="iconO">O</label>
+
+</body>
+</html>

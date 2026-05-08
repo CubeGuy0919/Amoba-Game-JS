@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 1.2rem;
+    background-color: rgb(241, 215, 183);
+    font-weight: bold;
+}
+
+#generationDatas{
+    display: flex;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: rgb(240, 212, 161);
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(209, 180, 127);
+}
+
+.boxBlock{
+    display: flex;
+    align-items: center;
+}
+
+.boxCell{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(245, 215, 116);
+    border: 1px solid black;
+    text-align: center;
+}
+
+.iconImg{
+    width: 40px;
+    height: 40px;
+}
+
+input{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 5px;
+}
+
+.iconO{
+    color: blue;
+}
+
+.iconX{
+    color: red;
+}
